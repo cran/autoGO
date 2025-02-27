@@ -1,7 +1,7 @@
 Package: autoGO
 Title: Auto-GO: Reproducible, Robust and High Quality Ontology
         Enrichment Visualizations
-Version: 0.9.1
+Version: 1.0.1
 Authors@R: c(
     person('Isabella', 'Grassucci', , 'isabella.grassucci@gmail.com', role = 'aut',
            comment = c(ORCID = '0000-0002-2484-8570')),
@@ -19,18 +19,19 @@ Description: Auto-GO is a framework that enables automated, high quality Gene On
 License: MIT + file LICENSE
 Encoding: UTF-8
 BugReports: https://github.com/mpallocc/auto-go/issues
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.2
 LazyData: true
-Depends: R (>= 3.5.0), readr (>= 2.1.2), dplyr (>= 1.1.0), enrichR
+Depends: R (>= 3.5.0), readr (>= 2.1.2), dplyr (>= 1.1.0), enrichR (>=
+        3.4)
 biocViews:
 Imports: ape, ComplexHeatmap, DESeq2, dichromat, ggplot2, ggrepel,
-        grDevices, GSVA, imguR, openxlsx, purrr, RColorBrewer,
+        grDevices, GSVA, imguR, msigdbr, openxlsx, purrr, RColorBrewer,
         reshape2, stats, stringr, SummarizedExperiment, textshape,
-        tidyr, tidyselect, utils
+        tibble, tidyr, tidyselect, utils
 Suggests: knitr, rlang, rmarkdown
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2023-02-13 22:07:53 UTC; fabio
+Packaged: 2025-02-25 17:04:01 UTC; fabio
 Author: Isabella Grassucci [aut] (<https://orcid.org/0000-0002-2484-8570>),
   Eleonora Sperandio [aut] (<https://orcid.org/0000-0002-8572-6788>),
   Fabio Ticconi [cre] (<https://orcid.org/0000-0001-8905-6657>),
@@ -39,4 +40,4 @@ Author: Isabella Grassucci [aut] (<https://orcid.org/0000-0002-2484-8570>),
   Matteo Pallocca [aut] (<https://orcid.org/0000-0002-7756-3579>)
 Maintainer: Fabio Ticconi <fabio.ticconi@gmail.com>
 Repository: CRAN
-Date/Publication: 2023-02-13 22:50:03 UTC
+Date/Publication: 2025-02-27 16:50:06 UTC
