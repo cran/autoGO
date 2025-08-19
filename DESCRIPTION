@@ -1,7 +1,7 @@
 Package: autoGO
 Title: Auto-GO: Reproducible, Robust and High Quality Ontology
         Enrichment Visualizations
-Version: 1.0.1
+Version: 1.0.3
 Authors@R: c(
     person('Isabella', 'Grassucci', , 'isabella.grassucci@gmail.com', role = 'aut',
            comment = c(ORCID = '0000-0002-2484-8570')),
@@ -25,19 +25,23 @@ Depends: R (>= 3.5.0), readr (>= 2.1.2), dplyr (>= 1.1.0), enrichR (>=
         3.4)
 biocViews:
 Imports: ape, ComplexHeatmap, DESeq2, dichromat, ggplot2, ggrepel,
-        grDevices, GSVA, imguR, msigdbr, openxlsx, purrr, RColorBrewer,
+        grDevices, GSVA, msigdbr, openxlsx, purrr, RColorBrewer,
         reshape2, stats, stringr, SummarizedExperiment, textshape,
         tibble, tidyr, tidyselect, utils
 Suggests: knitr, rlang, rmarkdown
 VignetteBuilder: knitr
+Config/Authors@R: yes
 NeedsCompilation: no
-Packaged: 2025-02-25 17:04:01 UTC; fabio
-Author: Isabella Grassucci [aut] (<https://orcid.org/0000-0002-2484-8570>),
-  Eleonora Sperandio [aut] (<https://orcid.org/0000-0002-8572-6788>),
-  Fabio Ticconi [cre] (<https://orcid.org/0000-0001-8905-6657>),
-  Alice Massacci [aut] (<https://orcid.org/0000-0001-7780-809X>),
-  Lorenzo D'Ambrosio [aut] (<https://orcid.org/0000-0002-9656-7436>),
-  Matteo Pallocca [aut] (<https://orcid.org/0000-0002-7756-3579>)
+Packaged: 2025-08-05 08:57:59 UTC; fabio
+Author: Isabella Grassucci [aut] (ORCID:
+    <https://orcid.org/0000-0002-2484-8570>),
+  Eleonora Sperandio [aut] (ORCID:
+    <https://orcid.org/0000-0002-8572-6788>),
+  Fabio Ticconi [cre] (ORCID: <https://orcid.org/0000-0001-8905-6657>),
+  Alice Massacci [aut] (ORCID: <https://orcid.org/0000-0001-7780-809X>),
+  Lorenzo D'Ambrosio [aut] (ORCID:
+    <https://orcid.org/0000-0002-9656-7436>),
+  Matteo Pallocca [aut] (ORCID: <https://orcid.org/0000-0002-7756-3579>)
 Maintainer: Fabio Ticconi <fabio.ticconi@gmail.com>
 Repository: CRAN
-Date/Publication: 2025-02-27 16:50:06 UTC
+Date/Publication: 2025-08-19 23:10:18 UTC
